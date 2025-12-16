@@ -1,7 +1,5 @@
-# Quiz Robot - ROS2 Implementation
+# GeoBot-Final Project for INFO 5356-030: Introduction to Human-Robot Interaction
 
-## Course Number
-INFO 5356-030: Introduction to Human-Robot Interaction
 
 ## Overview
 This ROS2 package implements an interactive quiz robot that uses LiDAR sensing to detect participants and navigate to their positions. The system combines deliberative planning, reactive sensing, and coordinated execution in a three-layer control architecture.
