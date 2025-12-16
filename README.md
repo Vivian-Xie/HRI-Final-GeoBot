@@ -68,7 +68,7 @@ LiDAR (/scan) ───> Reactive Layer ┘                      └──> /say
 
 
 ## Demo Video
-📹 [Watch the system in action](https://drive.google.com/your-demo-link-here)
+📹 [Watch the system in action](https://drive.google.com/file/d/1EbMJ2bmjRJsywzv14wcY85f6ChZG1JWt/view?usp=sharing)
 
 ## Running the System
 
@@ -85,6 +85,6 @@ ros2 topic pub /quiz_correct std_msgs/String "data: 'A'"
 
 
 ## Contributors
-- Xinwei Xie: LiDAR control node, FSM implementation
-- Rui Chen: TTS node, ROS2 integration
-- Zifan Yang: System testing and deployment
+- Xinwei Xie: xx374@cornell.edu
+- Rui Chen: rc986@cornell.edu
+- Zifan Yang: zy489@cornell.edu
