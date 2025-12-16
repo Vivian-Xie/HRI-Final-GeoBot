@@ -1,4 +1,4 @@
-# GeoBot-Final Project for Introduction to Human-Robot Interaction
+# GeoBot-Final Project for HRI
 INFO 5356-030: Introduction to Human-Robot Interaction
 
 ## Overview
