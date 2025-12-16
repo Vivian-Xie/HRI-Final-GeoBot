@@ -66,7 +66,7 @@ LiDAR (/scan) ───> Reactive Layer ┘                      └──> /say
 
 
 ## Demo Video
-📹 [Watch the system in action](https://drive.google.com/file/d/1EbMJ2bmjRJsywzv14wcY85f6ChZG1JWt/view?usp=sharing)
+📹 [Watch the demo](https://drive.google.com/file/d/1EbMJ2bmjRJsywzv14wcY85f6ChZG1JWt/view?usp=sharing)
 
 ## Running the System
 
