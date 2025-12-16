@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001733] (robot_control_architecture_pkg) JobQueued: {'identifier': 'robot_control_architecture_pkg', 'dependencies': OrderedDict()}
+[0.003258] (robot_control_architecture_pkg) JobStarted: {'identifier': 'robot_control_architecture_pkg'}
+[0.098943] (-) TimerEvent: {}
+[0.199628] (-) TimerEvent: {}
+[0.300498] (-) TimerEvent: {}
+[0.401290] (-) TimerEvent: {}
+[0.501996] (-) TimerEvent: {}
+[0.602604] (-) TimerEvent: {}
+[0.703240] (-) TimerEvent: {}
+[0.804028] (-) TimerEvent: {}
+[0.904770] (-) TimerEvent: {}
+[1.005429] (-) TimerEvent: {}
+[1.106426] (-) TimerEvent: {}
+[1.207019] (-) TimerEvent: {}
+[1.307696] (-) TimerEvent: {}
+[1.408345] (-) TimerEvent: {}
+[1.509169] (-) TimerEvent: {}
+[1.610970] (-) TimerEvent: {}
+[1.711818] (-) TimerEvent: {}
+[1.812576] (-) TimerEvent: {}
+[1.913211] (-) TimerEvent: {}
+[2.013915] (-) TimerEvent: {}
+[2.114578] (-) TimerEvent: {}
+[2.215183] (-) TimerEvent: {}
+[2.315831] (-) TimerEvent: {}
+[2.416441] (-) TimerEvent: {}
+[2.517110] (-) TimerEvent: {}
+[2.617744] (-) TimerEvent: {}
+[2.718426] (-) TimerEvent: {}
+[2.819291] (-) TimerEvent: {}
+[2.920149] (-) TimerEvent: {}
+[3.020807] (-) TimerEvent: {}
+[3.121700] (-) TimerEvent: {}
+[3.222365] (-) TimerEvent: {}
+[3.323026] (-) TimerEvent: {}
+[3.423666] (-) TimerEvent: {}
+[3.525279] (-) TimerEvent: {}
+[3.626867] (-) TimerEvent: {}
+[3.689054] (robot_control_architecture_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '128.84.80.181 48348 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install:/home/ubuntu/ros2_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'False', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '169', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '', 'PWD': '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '128.84.80.181 48348 10.52.16.27 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg:/home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.727178] (-) TimerEvent: {}
+[3.827863] (-) TimerEvent: {}
+[3.928517] (-) TimerEvent: {}
+[4.029383] (-) TimerEvent: {}
+[4.130237] (-) TimerEvent: {}
+[4.230878] (-) TimerEvent: {}
+[4.331534] (-) TimerEvent: {}
+[4.432172] (-) TimerEvent: {}
+[4.532791] (-) TimerEvent: {}
+[4.633455] (-) TimerEvent: {}
+[4.734092] (-) TimerEvent: {}
+[4.834773] (-) TimerEvent: {}
+[4.935677] (-) TimerEvent: {}
+[5.036338] (-) TimerEvent: {}
+[5.137332] (-) TimerEvent: {}
+[5.238374] (-) TimerEvent: {}
+[5.253884] (robot_control_architecture_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.338541] (-) TimerEvent: {}
+[5.439245] (-) TimerEvent: {}
+[5.540017] (-) TimerEvent: {}
+[5.640657] (-) TimerEvent: {}
+[5.741334] (-) TimerEvent: {}
+[5.842161] (-) TimerEvent: {}
+[5.942945] (-) TimerEvent: {}
+[6.043618] (-) TimerEvent: {}
+[6.144274] (-) TimerEvent: {}
+[6.244897] (-) TimerEvent: {}
+[6.334024] (robot_control_architecture_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.334892] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating robot_control_architecture_pkg.egg-info\n'}
+[6.343116] (robot_control_architecture_pkg) StdoutLine: {'line': b'writing robot_control_architecture_pkg.egg-info/PKG-INFO\n'}
+[6.343783] (robot_control_architecture_pkg) StdoutLine: {'line': b'writing dependency_links to robot_control_architecture_pkg.egg-info/dependency_links.txt\n'}
+[6.344536] (robot_control_architecture_pkg) StdoutLine: {'line': b'writing entry points to robot_control_architecture_pkg.egg-info/entry_points.txt\n'}
+[6.345718] (-) TimerEvent: {}
+[6.346113] (robot_control_architecture_pkg) StdoutLine: {'line': b'writing requirements to robot_control_architecture_pkg.egg-info/requires.txt\n'}
+[6.346612] (robot_control_architecture_pkg) StdoutLine: {'line': b'writing top-level names to robot_control_architecture_pkg.egg-info/top_level.txt\n'}
+[6.346943] (robot_control_architecture_pkg) StdoutLine: {'line': b"writing manifest file 'robot_control_architecture_pkg.egg-info/SOURCES.txt'\n"}
+[6.348264] (robot_control_architecture_pkg) StdoutLine: {'line': b"reading manifest file 'robot_control_architecture_pkg.egg-info/SOURCES.txt'\n"}
+[6.352022] (robot_control_architecture_pkg) StdoutLine: {'line': b"writing manifest file 'robot_control_architecture_pkg.egg-info/SOURCES.txt'\n"}
+[6.358129] (robot_control_architecture_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[6.359108] (robot_control_architecture_pkg) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/lib/python3.10/site-packages/robot-control-architecture-pkg.egg-link (link to .)\n'}
+[6.363060] (robot_control_architecture_pkg) StdoutLine: {'line': b'Installing robot_quiz_lidar_node script to /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/lib/robot_control_architecture_pkg\n'}
+[6.365196] (robot_control_architecture_pkg) StdoutLine: {'line': b'Installing simple_tts_node script to /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/lib/robot_control_architecture_pkg\n'}
+[6.367000] (robot_control_architecture_pkg) StdoutLine: {'line': b'\n'}
+[6.368283] (robot_control_architecture_pkg) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg\n'}
+[6.369676] (robot_control_architecture_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[6.370519] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/ament_index\n'}
+[6.372742] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/ament_index/resource_index\n'}
+[6.373311] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/ament_index/resource_index/packages\n'}
+[6.373779] (robot_control_architecture_pkg) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/resource/robot_control_architecture_pkg -> /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/ament_index/resource_index/packages\n'}
+[6.374490] (robot_control_architecture_pkg) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/package.xml -> /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/robot_control_architecture_pkg\n'}
+[6.375494] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/robot_control_architecture_pkg/launch\n'}
+[6.376355] (robot_control_architecture_pkg) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/launch/robot_control_architecture.launch.py -> /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/robot_control_architecture_pkg/launch\n'}
+[6.377379] (robot_control_architecture_pkg) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/robot_control_architecture_pkg/config\n'}
+[6.378563] (robot_control_architecture_pkg) StdoutLine: {'line': b'symbolically linking /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/build/robot_control_architecture_pkg/config/params.yaml -> /home/ubuntu/ros2_ws/src/robot_control_architecture_pkg/install/robot_control_architecture_pkg/share/robot_control_architecture_pkg/config\n'}
+[6.446010] (-) TimerEvent: {}
+[6.546904] (robot_control_architecture_pkg) CommandEnded: {'returncode': 0}
+[6.549742] (-) TimerEvent: {}
+[6.610690] (robot_control_architecture_pkg) JobEnded: {'identifier': 'robot_control_architecture_pkg', 'rc': 0}
+[6.613705] (-) EventReactorShutdown: {}

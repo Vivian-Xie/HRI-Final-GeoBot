@@ -1,0 +1,16 @@
+quiz_with_lidar_node:
+  ros__parameters:
+    laser_topic: "/scan"
+    linear_speed: 0.2
+    angular_speed: 1.0
+    default_distance_m: 1.5
+    stop_wait_s: 5.0
+    sector_width_deg: 30.0
+    person_min_m: 0.3
+    person_max_m: 3.0
+    tts_phrase: "congratulation"
+    tts_repeat_window_s: 10.0
+    tts_repeat_period_s: 0.8
+
+simple_tts:
+  ros__parameters: {}

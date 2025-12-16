@@ -1,0 +1,4 @@
+[console_scripts]
+robot_quiz_lidar_node = robot_control_architecture_pkg.robot_quiz_lidar_node:main
+simple_tts_node = robot_control_architecture_pkg.simple_tts_node:main
+
