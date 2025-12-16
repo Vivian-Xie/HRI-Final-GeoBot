@@ -9,13 +9,13 @@ This ROS2 package implements an interactive quiz robot that uses LiDAR sensing t
 ## Package Structure
 
 ```
-quiz_robot/
+src/
 ├── package.xml                      # ROS2 package manifest
 ├── setup.py                         # Python package configuration
-├── quiz_robot/
+├── robot_control_architecture_pkg/
 │   ├── robot_quiz_lidar_node.py    # Main control node (FSM + LiDAR)
 │   └── simple_tts_node.py          # Text-to-speech node
-└── README.md                        # This file
+└── Other files                       # For compiling
 ```
 
 ## File Descriptions
